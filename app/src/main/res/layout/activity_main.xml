@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditText
+        android:id="@+id/edt_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/url"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btn_open_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_website"/>
+    <EditText
+        android:id="@+id/edt_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lokasi"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btn_open_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_location"/>
+
+    <EditText
+        android:id="@+id/edt_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_share"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_this_text"/>
+
+
+
+</LinearLayout>

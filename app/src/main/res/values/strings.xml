@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ImplicitIntent</string>
+    <string name="url">http://www.google.com</string>
+    <string name="open_website">Open Website</string>
+    <string name="lokasi">Sekolah Vokasi UGM</string>
+    <string name="open_location">Open Location</string>
+    <string name="text_share">Share This text</string>
+    <string name="share_this_text">Share This Text</string>
+</resources>
